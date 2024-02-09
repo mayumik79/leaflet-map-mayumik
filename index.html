@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>leaflet-map-simple</title>
+  <title>leaflet-map-mayumik</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -27,7 +27,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [25.687677071590652,-80.41030863389413], // EDIT coordinates to re-center map
+    center: [-12.049283, -77.002447], // EDIT coordinates to re-center map
     zoom: 18,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false,
     tap: false
@@ -42,8 +42,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([25.687677071590652,-80.41030863389413]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([-12.049283, -77.002447]).addTo(map) // EDIT marker coordinates
+  .bindPopup("here"); // EDIT pop-up text message
 
   </script>
 </body>
